@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Linux - Ondřej Pilař</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="theme.css">
   </head>
   <body>
     <header data-bs-theme="dark">
-      <nav class="navbar navbar-expand-lg bg-dark text-white fixed-top">
+      <nav class="navbar navbar-expand-lg bg-primary fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Linux Propaganda</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,16 +36,16 @@
         <div class="container pt-5" />
     </header>
 
-    <h1 class="text-center mt-5 mb-2">Linux Distributions (Gallery)</h1>
+    <h1 class="text-center mt-5 mb-2"><span class="fw-bold">Linux Distributions</span> (Gallery)</h1>
 
-    <div class="container my-2">
+    <section class="container my-2">
       <div class="row row-cols-1">
         <article class="col">
           <div class="card my-4">
             <img src="assets/images/debian.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Debian, the first mainstream Linux distribution</h5>
-              <p class="card-text">One of the advantages and also disadvantages of Arch Linux is its lack of a preinstalled window manager, which you then have to install by yourself. This is how Arch Linux will look if you won't install a WM, just a terminal.</p>
+              <h4 class="card-title">Debian</h4>
+              <p class="card-text">Debian is a free and open-source Linux distribution known for its stability, security, and extensive package management system. It was first released in 1993 and is maintained by a global community of developers who collaborate to provide ongoing updates and bug fixes. Debian is often used as a base for other Linux distributions due to its reliability and the vast number of available software packages. Its package management system, which includes a user-friendly package manager called apt, allows for easy installation and management of software applications. With a focus on security and stability, Debian is a popular choice for servers and mission-critical systems.</p>
             </div>
             <div class="card-footer">
               <a href="https://www.debian.org/">debian.org</a>
@@ -56,8 +56,8 @@
           <div class="card my-4">
             <img src="assets/images/ubuntu.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Ubuntu, the most widespread Linux distribution</h5>
-              <p class="card-text">One of the advantages and also disadvantages of Arch Linux is its lack of a preinstalled window manager, which you then have to install by yourself. This is how Arch Linux will look if you won't install a WM, just a terminal.</p>
+              <h4 class="card-title">Ubuntu</h4>
+              <p class="card-text">Ubuntu is a user-friendly and popular Linux distribution that was first released in 2004. It is based on Debian and offers a similar package management system, with a large repository of software packages available for easy installation. Ubuntu has a focus on ease-of-use and accessibility, with a graphical user interface that is straightforward for new users to navigate. It also receives frequent updates and is supported by a large and active community of developers. As a result, Ubuntu is a popular choice for both personal and professional use, particularly on desktop and laptop computers.</p>
             </div>
             <div class="card-footer">
               <a href="https://ubuntu.com/">ubuntu.com</a>
@@ -68,8 +68,8 @@
           <div class="card my-4">
             <img src="assets/images/fedora.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Fedora, Torvalds' favourite</h5>
-              <p class="card-text">One of the advantages and also disadvantages of Arch Linux is its lack of a preinstalled window manager, which you then have to install by yourself. This is how Arch Linux will look if you won't install a WM, just a terminal.</p>
+              <h4 class="card-title">Fedora</h4>
+              <p class="card-text">backed by Red Hat, a leading provider of enterprise Linux solutions. It was first released in 2003 and is known for its bleeding-edge technology and frequent updates, making it a popular choice for developers and early adopters. Fedora's package management system, dnf, is similar to Debian's apt and offers a vast repository of software packages for easy installation and management. Fedora's focus on cutting-edge technology means it often introduces new features and updates before they are available on other Linux distributions. Additionally, Fedora has a strong emphasis on security, with features such as SELinux enabled by default.</p>
             </div>
             <div class="card-footer">
               <a href="https://getfedora.org/">getfedora.org</a>
@@ -80,8 +80,8 @@
           <div class="card my-4">
             <img src="assets/images/arch.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Arch Linux</h5>
-              <p class="card-text">One of the advantages and also disadvantages of Arch Linux is its lack of a preinstalled window manager, which you then have to install by yourself. This is how Arch Linux will look if you won't install a WM, just a terminal.</p>
+              <h4 class="card-title">Arch Linux</h4>
+              <p class="card-text">Arch Linux is a lightweight and highly customizable Linux distribution that was first released in 2002. It is known for its minimalistic approach, requiring users to manually install and configure software packages to build their own custom system. This allows for a high degree of flexibility and customization, making Arch Linux a popular choice among power users and developers. Arch Linux also follows a rolling-release model, meaning that software packages are constantly updated to the latest stable versions, offering the latest features and improvements. Its package management system, pacman, is simple and efficient, allowing users to easily manage their system and install new packages. While Arch Linux is not as user-friendly as other distributions, it offers a high level of control and customization for advanced users who are willing to put in the effort.</p>
             </div>
             <div class="card-footer">
               <a href="https://archlinux.org/">archlinux.org</a>
@@ -92,8 +92,8 @@
           <div class="card my-4">
             <img src="assets/images/kali.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Kali Linux</h5>
-              <p class="card-text">One of the advantages and also disadvantages of Arch Linux is its lack of a preinstalled window manager, which you then have to install by yourself. This is how Arch Linux will look if you won't install a WM, just a terminal.</p>
+              <h4 class="card-title">Kali Linux</h4>
+              <p class="card-text">Kali Linux is a Debian-based Linux distribution designed for advanced penetration testing and security auditing. It includes a vast collection of security tools for testing and assessing vulnerabilities in networks and systems. Kali Linux is frequently updated and customizable to meet specific needs, making it popular among security professionals and enthusiasts. It is not intended for general-purpose computing, but serves as a powerful tool for cybersecurity purposes.</p>
             </div>
             <div class="card-footer">
               <a href="https://www.kali.org/">kali.org</a>
@@ -101,7 +101,53 @@
           </div>
         </article>
       </div>
-    </div>
+    </section>
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <div class="container pt-2">
+        <section class="mb-4">
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.debian.org/"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><img src="assets/icons/debian.png" alt="Debian" style="max-width: 50px;"></i
+          ></a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://ubuntu.com/"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><img src="assets/icons/ubuntu.png" alt="Ubuntu" style="max-width: 50px;"></i
+          ></a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://getfedora.org/"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><img src="assets/icons/fedora.png" alt="Fedora" style="max-width: 50px;"></i
+          ></a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://archlinux.org/"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><img src="assets/icons/arch.png" alt="Arch" style="max-width: 50px;"></i
+          ></a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.kali.org/"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><img src="assets/icons/kali.png" alt="Kali" style="max-width: 50px;"></i
+          ></a>
+        </section>
+      </div>
+      <div class="text-center p-3 bg-dark">
+        © 2023 Copyright: 
+        <a href="https://ondrejoda.com/">ondrejoda.com</a>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
