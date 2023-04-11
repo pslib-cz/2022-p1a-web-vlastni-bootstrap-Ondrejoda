@@ -40,39 +40,28 @@
     </header>
 
     <section>
-      <h1 class="mt-5 mb-4 text-center display-1 fw-bolder">History of Linux</h1>
-    </section>
-
-    <section>
-      <div class="container">
-        <article class="row align-items-center g-5 pb-5 px-4 my-5 shadow border border-2 bg-white">
-          <div class="col-lg-6">
-            <h2>Unix's influence on Linux</h2>
-            <p class="lead">Linux, an open-source operating system, has a rich history that can be traced back to Unix, its predecessor. Unix was created in the late 1960s by AT&T Bell Labs and was initially only available on a limited number of mainframe computers. As Unix grew in popularity, other companies began to sell their versions of the operating system, including Microsoft, which sold its own version called Xenix. In the 1980s, AT&T sold Unix to Novell, which then sold it to The Santa Cruz Operation (SCO).</p>
-          </div>
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="assets/images/unix.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500">
-          </div>
-        </article>
-        <article class="row flex-lg-row-reverse align-items-center g-5 pb-5 px-4 my-5 shadow border border-2 bg-white ">
-          <div class="col-lg-6">
-            <h2>Linus Torvalds and the creation of Linux</h2>
-            <p class="lead">In the early 1990s, a computer science student at the University of Helsinki named Linus Torvalds began working on his own operating system kernel, which he named Linux. Torvalds released the first version of Linux in 1991, and it quickly gained popularity among computer enthusiasts and developers. Linux was different from Unix in that it was free and open-source, which meant that anyone could download the source code and modify it to suit their needs.).</p>
-          </div>
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="assets/images/linus.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500">
-          </div>
-        </article>
-        <article class="row align-items-center g-5 pb-5 px-4 my-5 shadow border border-2 bg-white">
-          <div class="col-lg-6">
-            <h2>The history of popular Linux distributions</h2>
-            <p class="lead">Linux's popularity spawned numerous distributions, each with unique characteristics and goals. Debian, among the earliest and most well-known, was initially introduced in 1993 and valued for its stability and robust community backing. Fedora, another popular distribution, came into being in 2003, founded by Red Hat and based on the now-defunct Red Hat Linux. Ubuntu, introduced in 2004, has become a widely used desktop distribution. Lastly, Arch Linux, a lightweight and modifiable distribution preferred by power users and developers, was first released in 2002.</p>
-          </div>
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="assets/images/debian.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500">
-          </div>
-        </article>
-      </div>
+        <div class="container text-center p-4 my-5 border border-1 shadow">
+            <h1 class="display-1 fw-bolder">Contact</h1>
+            <p>Contact us, any feedback would be appreciated.</p>
+            <form onsubmit="" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label mt-2"><strong>Name</strong></label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe"
+                        autocomplete="on">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label mt-2"><strong>Email</strong></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput2"
+                        placeholder="name@domain.com" autocomplete="on">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"><strong>Your message</strong></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"
+                        autocomplete="username" style="min-height: 191px;"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" id="btn">Send</button>
+            </form>
+        </div>
     </section>
 
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
