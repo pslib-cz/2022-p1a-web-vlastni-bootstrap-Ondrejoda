@@ -22,7 +22,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [X] Soubory webu se nacházejí v GitHubovém repozitáři
 * [X] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
 * [X] Web je dostupný přes [Github Pages](https://pages.github.com/) (do README.md přidejte odkaz)
-* [ ] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
+* [X] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
 * [X] Obrázky mají rozumnou velikost pro mobilní telefon - tj. odpovídají skutečné velikost vymezeného prostoru
 
 ### Použité komponenty
